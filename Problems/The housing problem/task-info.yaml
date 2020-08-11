@@ -1,0 +1,26 @@
+type: code
+files:
+- name: task.py
+  visible: true
+  text: |-
+    # definition of the class
+    Class House():
+        construction = "building"
+        elevator = True
+
+    # object of the class House
+    new_house = House("building")
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6665
+status: Failed
+feedback:
+  message: |
+    Failed. Runtime error
+
+    Error:
+    Traceback (most recent call last):
+      File "jailed_code", line 19, in <module>
+        print(new_house.construction, new_house.elevator)
+    NameError: name 'new_house' is not defined
+  time: Mon, 10 Aug 2020 21:51:54 UTC
+record: -1
